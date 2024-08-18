@@ -1,0 +1,46 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.4",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "NNEDemo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "NNERuntimeBasicCpu",
+			"Enabled": true
+		},
+		{
+			"Name": "NNERuntimeIREE",
+			"Enabled": true
+		},
+		{
+			"Name": "NNERuntimeORT",
+			"Enabled": true
+		},
+		{
+			"Name": "NNERuntimeRDG",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		}
+	]
+}
